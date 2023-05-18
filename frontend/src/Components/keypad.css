@@ -1,11 +1,3 @@
-/* .calculator {
-  display: flex;
-  align-items: center;
-  height:100vh;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 25%;
-} */
 .calculator {
   display: flex;
   flex-direction: row;
