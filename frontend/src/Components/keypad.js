@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { evaluate } from 'mathjs';
 import './keypad.css'
 
 function Calculator() {
@@ -31,7 +32,7 @@ function Calculator() {
 
   const handleEqual = () => {
     try {
-      const calculatedResult = eval(calculation);
+      const calculatedResult = evaluate(calculation);
       setResult(calculatedResult.toString());
     } catch (error) {
       setResult('Error');
