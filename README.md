@@ -25,8 +25,8 @@ To use the calculator application, follow these steps:
 ### Technologies Used
 The calculator application has been developed using the following technologies:
 
-React.Js
-Node.Js
-MongoDB (database)
+- React.Js
+- Node.Js
+- MongoDB (database)
 
 
